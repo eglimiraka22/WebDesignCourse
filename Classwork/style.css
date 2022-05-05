@@ -1,0 +1,158 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+  
+  body {
+    font-family: Arial, Tahoma, Serif;
+    color: #263238;
+    max-width: 880px;
+    margin: 0 auto;
+    background-image: linear-gradient(rgb(94, 81, 81) 10%, 30%, rgb(255, 255, 255) 90%);
+    ;
+  }
+  .title{
+      position: relative;
+      
+  }
+  nav {
+     top: 0;
+    
+  margin: 0 auto;
+  text-align: center;
+     background-color: #c22e2e;
+     width: 880px;
+     z-index: 999;
+     
+  }
+
+.mainbody{
+    display: flex;
+    position: relative;
+    top: 5rem;
+    margin: 5%;
+}
+
+img{
+  border-radius: 50%;
+  
+}
+
+  nav ul {
+    display: flex;
+    list-style: none; 
+
+  }
+  
+  nav li {
+    padding-left: 3rem;
+    padding-top: 2%;
+    position: relative;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    transition: transform .4s;
+  }
+
+  nav li:hover{
+    transform: scale(1.2);
+  }
+  
+  
+  nav a {
+    text-decoration: none;
+    color: #ffffff;
+    top: 2%;
+    
+    
+  }
+
+  nav a:hover{
+    color: black;
+    transform:  scale(1.1);
+   
+  }
+  
+
+
+  
+   h1{
+       text-align: center;
+       font-family: Georgia, 'Times New Roman', Times, serif;
+       
+   }
+   button{
+       position: relative;
+       width: 50%;
+       left: 25%;
+       bottom: 5%
+   }
+
+
+   .h-100{
+     transition: transform 0.3s;
+   }
+   .h-100:hover{
+     transform: scale(1.15);
+   }
+  @media only screen and (max-width: 500px) {
+    div{
+        padding-top: 3%;
+           }
+
+.title{
+    order: 1;
+}
+    nav {
+      flex-direction: column;
+      display: flex;
+position: relative;
+width: 100%;
+border: 2px solid;
+text-align: center;
+padding-top: 1cm;
+    }
+    nav ul {
+      flex-direction: column;
+      padding-top: 0.5rem;
+      padding-left: 0rem;
+    }
+    nav li {
+      padding: 0.5rem 0;
+    }
+    ul {
+        display: flex;
+        flex-direction: column;
+      }
+      ul li:first-child {
+        order: 2;
+      }
+      ul li:nth-child(2) {
+        order: 3;
+      }
+      ul li:nth-child(3) {
+        order: 4;
+      }
+      ul li:nth-child(4) {
+        order: 5;
+      }
+      ul li:nth-child(5) {
+        order: 6;
+      }
+      ul li:nth-child(6) {
+        order: 7;
+      }
+      .mainbody{
+        display: flex;
+        position: relative;
+        top: 0;
+        
+    }
+    .image1{
+      display: none;
+    }
+    
+    }
+    
+    @media only screen and (max-width: 800px) {
+      body {
+        max-width: 880px;
+      }

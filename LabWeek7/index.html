@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+
+    <title>Document</title>
+</head>
+<body>
+    
+   <div class="forms">
+    <div class="sub">
+        <form id="contact" name="contact"  onsubmit="validations(this)" action method="post">
+            <div>
+                <label >First Name</label>
+                <input type="text" placeholder="First Name" id="name" tabindex="1" autofocus>
+                <div id="name-error" class="error"></div>            
+                
+    <br>
+            </div>
+            <div>
+                <label >Email</label>
+                <input type="email" placeholder="Email" id="email" name="email" tabindex="2" autofocus>
+                <div id="email-error" class="error"></div>            
+                <br>
+    
+            </div>
+            <div>
+                <label >Phone</label>
+                <input type="tel" placeholder="Phone" id="phone" name="phone" tabindex="3" autofocus>
+                <div id="phone-error" class="error"></div>            
+                
+    <br>
+            </div>
+    <br>
+            <div>
+                <label >I prefer</label>
+                <input type="radio" name="pet" id="Dogs" tabindex="4"  autofocus>Dogs
+                 <input type="radio" name="pet" id="Cats" tabindex="5 "  autofocus> Cats
+                <input type="radio" name="pet" id="Neither" tabindex="6" autofocus>  Neither
+    
+                <div id="pet-error" class="error"></div> 
+            </div>
+    <br>
+            <div>
+                <label >My age is:</label>
+                <input type="text" placeholder="Age" name="number" id="number" tabindex="7"autofocus>
+                <div id="number-error" class="error"></div>
+            </div>
+    <br>
+            <div>
+                <label for="">Disclaimer</label>
+                <input type="checkbox" name="disclaimer" id="disclaimer" tabindex="8" autofocus>I confirm all information
+                
+                <div id="disclaimer-error" class="error"></div>
+    
+            </div>
+    <br>
+    
+            <div class="btnsubmit">
+                <button type="submit" name="submit" id="submit" tabindex="9">Send</button>
+            </div>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+        </form>
+
+       
+    </div>
+    <H1>
+        EGli Miraka
+    </H1>
+   </div>
+
+   
+    
+
+
+
+
+
+
+
+</body>
+</html>

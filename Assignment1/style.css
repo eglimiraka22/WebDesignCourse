@@ -1,0 +1,74 @@
+
+
+.accountinfo{
+   
+    background-image: linear-gradient( 135deg, #FFF6B7 10%, #F6416C 100%);
+    
+    
+    position: relative;
+    width: 100%;
+    
+}
+.accountinfo:hover{
+    background-color: darkorange;
+}
+
+.accountinfo a{
+    color: rgb(0, 0, 0);
+}
+
+.accountinfo h4{
+    text-align: right
+}
+
+.accountinfo a{
+    padding: 6px;
+    text-decoration: none;
+}
+
+
+.accountinfo a:hover{
+    color: rgb(255, 255, 255);
+    text-decoration: dotted;
+}
+
+
+.signin{
+    opacity: 0.9;
+   text-align: center;
+   width: 70%;
+ padding: 10%;
+ position: relative;
+ left: 20%;
+ top: 2cm;
+ border: 2px solid gold;
+ border-radius: 10px;
+ background-image: linear-gradient( 135deg, #FFF6B7 10%, #F6416C 100%);
+ transition: transform .4s;
+  
+  
+}
+.signin:hover{
+    opacity: 1;
+    transform: scale(1.1)
+    
+    
+}
+.information{
+    text-align: center;
+    padding: 1cm;
+}
+
+.forget{
+    padding: 1cm;
+}
+
+
+
+body:hover{
+    
+    
+    
+}
+
+

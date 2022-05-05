@@ -1,0 +1,37 @@
+* {
+	box-sizing: inherit;
+}
+body {
+	font-family: Verdana, sans-serif;
+	color: #333;
+	background: #fff9ef;
+	margin: 3rem;
+}
+h1 {
+	font-family: 'Georgia', serif;
+	font-weight: normal;
+	line-height: normal;
+	margin: 0 0 2rem 0;
+	font-size: 2.5rem;
+}
+
+div {
+	width: 200px;
+	height: 200px;
+	background: #998463;
+}
+
+.orange {
+	background: #ffb53f;
+	border-radius: 40px;
+}
+.overlay {
+	display: none;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	height: 200px;
+	width: 200px;
+	background: gray;
+}

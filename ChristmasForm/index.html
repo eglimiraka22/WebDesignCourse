@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Password Generator</title>
+</head>
+<body>
+    <!-- INSERT HTML HERE -->
+    <div class="container">
+        <h1>Festat e Krishtlindjeve</h2>
+            <p id="p1">Si do ti festoni festat sivjet?</p>
+        <div class="result-container">
+            <form action="" id="forma" onsubmit="validateformOnsubmit(this)" action method="post">
+               <div class="input-field"> 
+                <label for="fname">Emer</label>
+                <input type="text" id="username" name="firstname" placeholder="Emri..">
+                <div id="name-error" class="error"></div>
+               
+               </div>
+                <div class="input-field">
+                    <label for="lname">Email</label>
+                    <input type="text" id="email" name="lastname" placeholder="Emaili..">
+                    <div id="email-error" class="error"></div>
+                </div>
+               <div class="input-field">
+                <label for="lname">Mosha</label>
+                <input type="text" id="mosha" name="lastname" placeholder="Mosha..">
+                <div id="mosha-error" class="error"></div>
+               </div>
+                
+
+                <label for="country">Aktiviteti preferuar:</label>
+                <select id="country" name="country">
+                  <option value="Aktiviteti A">Aktiviteti A</option>
+                  <option value="Aktiviteti B">Aktiviteti B</option>
+                  <option value="Aktiviteti C">Aktiviteti C</option>
+                </select> 
+
+
+                <label for="country">A do te gatuani nje gjel deti?</label>
+                <br>
+                <input type="radio" id="html" name="fav_language" value="Po">
+                <label for="Po">Po</label><br>
+                <input type="radio" id="css" name="fav_language" value="Jo">
+                <label for="Jo">Jo</label><br>
+                <input type="radio" id="javascript" name="fav_language" value="Ndoshta">
+                <label for="Ndoshta">Ndoshta</label>
+                <br>
+                <br>
+
+                <label for="country">Cfare aktivitetesh kryet vitin e kaluar? (Zgjidhni te gjitha qe kryet)</label>
+                <br>
+                <input type="checkbox" id="cheku" checked="checked">
+                <span class="checkmark"></span>
+                <label>Dreke me familjen </label>  
+                <br>
+                <input type="checkbox" id="cheku">
+                <span class="checkmark"></span>
+                <label>Shkembim dhuratash </label>
+                <br>
+                <input type="checkbox" id="cheku">
+                <span class="checkmark"></span>
+                <label>Ndezje fishekzjarresh</label>   
+                <br>
+                <input type="checkbox" id="cheku">
+                <span class="checkmark" ></span>
+                <label>Udhetim jashte tiranes</label>
+                <br> <br>
+    
+                <label for="comment" class="required">A keni komente?</label> <br>
+                <textarea name="comment" id="comment"></textarea><br> <br>
+
+                <button  type="submit" id="butoni">Dergo</button >
+                
+
+
+                
+            <ul id="ul">
+                <li id="li1">Gezuar Krishtlindjen dhe Vitin e Ri!         </li> 
+                
+                <li id="li2">Klaudio MIraka</li>
+            </ul> 
+    
+              
+                    
+
+                    
+                  
+
+              
+
+                    
+                
+
+
+
+              
+                
+              </form>
+            
+        </div>
+        
+    </div>
+    
+    
+   
+    <script src="app.js"></script>
+</body>
+
+</html>
