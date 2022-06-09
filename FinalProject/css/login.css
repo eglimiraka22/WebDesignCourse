@@ -1,0 +1,231 @@
+body {
+    background-color: #F5F5F5;
+    font-family     : Inter;
+}
+
+div.login {
+    width           : 30rem;
+    height          : 37rem;
+    background-color: white;
+    border          : 3px solid #c12d2d;
+    border-radius: 1%;
+}
+
+.row {
+    height: 100vh
+}
+
+.user-input {
+    border: 1px solid #054fb880 !important;
+}
+
+a.forget-pw {
+    text-align    : right;
+    font          : normal 400 14px/21px Inter;
+    letter-spacing: 0.28px;
+    color         : #333333;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.social {
+    width        : 50px;
+    height       : 50px;
+    box-shadow   : 0px 3px 9px #00000019;
+    border       : 1px solid #31fd1a;
+    border-radius: 8px;
+
+}
+
+.social:first-child {
+    margin-right: 1rem;
+}
+
+.bottom-icon {
+    width : 100px;
+    height: 20px;
+}
+
+.bottom-text {
+    font          : normal 500 14px/17px Inter;
+    letter-spacing: 0px;
+    color         : #333333;
+}
+
+.login-text {
+    background             : transparent linear-gradient(110deg, #BB001B 0%, #d5835a 100%) 0% 0% no-repeat padding-box;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip        : text;
+    -moz-background-clip   : text;
+
+}
+
+.labels {
+    letter-spacing: 0px;
+    color         : #333333;
+    opacity       : 0.5;
+    font          : normal 400 14px/21px Inter;
+}
+
+.form-control::placeholder {
+    font          : normal 500 16px/21px Inter !important;
+    /* font-weight: bolder !important; */
+    letter-spacing: 0.32px !important;
+    color         : #333333 !important;
+    opacity       : 1 !important;
+}
+
+#remember,
+.checkbox-label {
+    font: normal 400 14px/21px Inter !important;
+
+}
+
+.login-btn {
+    font          : normal 500 16px/21px Inter;
+    background    : transparent linear-gradient(90deg, #0c41ee 0%, #227cdd 100%) 0% 0% no-repeat padding-box;
+    border-radius : 8px;
+    letter-spacing: 0.32px;
+    color         : #000000;
+    opacity       : 1;
+    height        : 50px;
+}
+.login-btn:hover{
+    color: whitesmoke;
+}
+
+.signup {
+    font          : normal 500 14px/21px Inter;
+    letter-spacing: 0.28px;
+    opacity       : 1;
+    color         : #999999;
+}
+
+.signup a {
+    letter-spacing: 0.28px;
+    color         : #5B6AFE;
+}
+
+.social-auth {
+    letter-spacing: 0.28px;
+    color         : #333333;
+    opacity       : 1;
+    background    : #ffffff;
+    z-index       : 9999999999999;
+    width         : fit-content;
+    margin        : 0 auto;
+    position      : relative;
+}
+
+.dashed-line {
+    border-bottom: 1px dashed rgb(207, 206, 206);
+    position     : absolute;
+    width        : 100%;
+    top          : 50%;
+    z-index      : 1;
+}
+
+div.theme {
+    position: absolute;
+    right   : 31px;
+    top     : 20px;
+
+}
+
+
+#toggleThemeText {
+    font          : normal 500 14px/17px Inter;
+    letter-spacing: 0px;
+    color         : #333333;
+    opacity       : 1;
+}
+
+.form-control:focus {
+    color           : #212529;
+    background-color: #fff;
+    border-color    : #86b7fe;
+    outline         : 0;
+    box-shadow      : 0 0 0 0.05rem #b10b71;
+}
+
+.form-check-input:focus {
+    box-shadow: 0 0 0 0.05rem #b10b71;
+}
+
+.form-switch .form-check-input,
+.form-switch .form-check-input:focus {
+    background-color: #333333;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='white'/%3e%3c/svg%3e")
+}
+
+.form-switch .form-check-input:checked {
+    background-color: #ffffff;
+
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='rgba%28236, 80, 98, 1%29'/%3e%3c/svg%3e")
+}
+
+.dark {
+    color: rgba(255, 255, 255, 1) !important;
+}
+
+.social-auth.dark {
+    background-color: rgb(61, 60, 60) !important
+}
+
+input.dark,
+.social.dark {
+    background: rgba(39, 39, 39, 1)
+}
+
+.form-control.dark::placeholder {
+    color: rgba(255, 255, 255, 1) !important;
+}
+
+.social.dark {
+    background: white
+}
+
+
+
+@keyframes slide {
+    0% {
+        background: transparent linear-gradient(0deg, #F66353 0%, #DD3279 100%) 0% 0% no-repeat padding-box;
+
+    }
+
+    20% {
+        background: transparent linear-gradient(20deg, #F66353 0%, #DD3279 100%) 0% 0% no-repeat padding-box;
+
+    }
+
+    40% {
+        background: transparent linear-gradient(40deg, #F66353 0%, #DD3279 100%) 0% 0% no-repeat padding-box;
+
+    }
+    60% {
+        background: transparent linear-gradient(60deg, #F66353 0%, #DD3279 100%) 0% 0% no-repeat padding-box;
+
+    }
+    80% {
+        background: transparent linear-gradient(80deg, #F66353 0%, #DD3279 100%) 0% 0% no-repeat padding-box;
+
+    }
+
+    100% {
+        background: transparent linear-gradient(90deg, #F66353 0%, #DD3279 100%) 0% 0% no-repeat padding-box;
+    }
+}
+
+a{
+    color: black;
+    text-decoration: none;
+
+}
+a:hover{
+    color: rgb(248, 248, 248);
+    text-decoration: none;
+    
+}
